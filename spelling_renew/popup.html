@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>맞춤법 검사기</title>
+
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="popup.css">
+    <link rel="stylesheet" href="correct-display.css">
+    
+
+</head>
+<body>
+    <div id="container">
+        
+        <div class="box-result1">
+            <div class="box-result-item">
+                <div><span id="check-target-label" class="badge badge-secondary">선택된 텍스트</span></div>
+                <textarea id="check-target" class="form-control" rows="7"></textarea>
+            </div>
+            <div class="box-result-item">
+                <div>
+                    <span id="check-result-label" class="badge badge-secondary">교정 결과</span>
+                    <small class="text-muted">&nbsp;마우스를 올리면 복사하기 편하도록 서식이 제거됩니다.</small>
+                </div>
+                <div>
+                    <div id="check-result" class="form-control"></div>
+                    <small id="check-result-msg" class="text-muted"></small>
+                </div>
+            </div>
+        </div>
+        
+        <br><br>
+        
+        <button id="check-button" class="btn btn-success form-control">교정</button>
+        
+        <br><br>
+        
+        <button id="exception" class="btn btn-success form-control">예외 처리</button>
+
+        <br><br>
+
+        <button id="Game_button" class="btn btn-success form-control" >세종 머앟 놀이</button>
+
+        <br><br>
+
+        <button id="option" class="btn btn-success form-control" >사전 보기</button>
+        
+        <p id="number"></p>
+        <p id = "DICT"></p>
+        
+    </div>
+    <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="popper.min.js"></script>
+    <script type="text/javascript" src="bootstrap.min.js"></script>
+    <script type="text/javascript" src="popup.js"></script>
+    
+</body>
+</html>

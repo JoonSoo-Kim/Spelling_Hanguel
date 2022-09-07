@@ -1,0 +1,37 @@
+{
+  "manifest_version": 2,
+
+  "name": "한국어 맞춤법 검사기",
+  "description": "Design Thinking Project",
+  "version": "2.2.3",
+
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["contents.js"]
+    }
+  ],
+
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "images/index2.jpg"
+  },
+
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+E",
+        "mac": "Command+Shift+E"
+      }
+    }
+  },
+
+  "permissions": [
+    "activeTab"
+  ]
+}

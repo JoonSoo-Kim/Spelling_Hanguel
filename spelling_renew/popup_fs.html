@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>한국어 맞춤법 검사기</title>
+
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="popup_fs.css">
+  <link rel="stylesheet" href="correct-display.css">
+  
+</head>
+<body>
+  <div class="fs-container">
+    <div class="fs-header">
+      <div class="row">
+        <div class="col">
+          <h2><span class="badge badge-secondary" id="fs-header-target">선택된 텍스트</span></h2>
+        </div>
+        <div class="col">
+          <h2>
+            <span class="badge badge-secondary" id="fs-header-result">교정 결과</span>
+            <small class="text-muted">&nbsp;마우스를 올리면 복사하기 편하도록 서식이 제거됩니다.</small>
+          </h2>
+        </div>
+      </div>
+    </div>
+    <hr>
+      
+    <div class="fs-contents"></div>
+      <div class="row">
+        <div class="col">
+          <div id="fs-contents-target"></div>
+        </div>
+        <div class="col">
+          <div id="fs-contents-result"></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="popper.min.js"></script>
+  <script type="text/javascript" src="bootstrap.min.js"></script>
+  <script type="text/javascript" src="popup_fs.js"></script>
+</body>
+</html>

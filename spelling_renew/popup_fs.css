@@ -1,0 +1,44 @@
+.lll {
+  border: 1px solid red;
+}
+
+.fs-container {
+  margin-top: 15px;
+  margin-left: 20px;
+  width: 97%;
+}
+
+.fs-header {
+  padding: 0 15px;
+}
+
+.fs-contents {
+  margin-top: 20px;
+}
+
+#fs-contents-target {
+  font-size: large;
+  line-height: 2.3em;
+  padding: 0 15px;
+}
+
+#fs-contents-result {
+  font-size: large;
+  line-height: 2.3em;
+  padding: 0 15px;
+}
+
+.googleads-container {
+  margin-top: 5px;
+}
+
+.googleads {
+  text-align: center;
+  color: gray;
+  display: block;
+}
+
+.wrong {
+  color: red;
+  background-color: rgb(255, 255, 226);
+}

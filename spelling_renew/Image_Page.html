@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>세종 머앟 선택창</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="popup.css">
+    <link rel="stylesheet" href="correct-display.css">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        html,
+        body {
+            height: 90%;
+            background-image: url("./images/Background.jpg");
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+        .back {
+            height: 98%;
+            width: auto;
+        }
+
+        .front {
+            height: 30%;
+            width: 30%;
+            position:relative;
+            top:30%;
+            left:35%;
+            font-size: xx-large;
+        }
+    </style>
+    <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="popper.min.js"></script>
+    <script type="text/javascript" src="bootstrap.min.js"></script>
+    <script type="text/javascript" src="popup.js"></script>
+</head>
+
+
+<body>
+    <div class="back">
+        <br>
+        <button id="EX-button" class="btn btn-success form-control front" >예외어 사전</button>
+        <br><br><br>
+        <button id="NEW-button" class="btn btn-success form-control front" >신조어 사전</button>
+    </div>
+
+</body>
+
+</html>
